@@ -29,8 +29,10 @@
             /*border: yellow solid 1px;*/
         }
 
-        .headerbanner {
+        .headerbanner_small {
+			display:none;
         }
+		
         /*
         .container{
             background: #fff;
@@ -107,6 +109,12 @@
             .table_price {
                 width: 100%;
             }
+			.headerbanner_small{
+				display:block;
+			}
+			.headerbanner{
+				display:none;
+			}
         }
 
         .tieudecuocthi {
@@ -184,6 +192,9 @@
         </div>
         <div class="headerbanner row">
             <img id="banner" src="assets/img_cuocthianhcusc/banner-arena-2021.jpg">
+        </div>
+		<div class="headerbanner_small row">
+            <img id="banner" src="assets/img_cuocthianhcusc/banner-arena-2021-small.png">
         </div>
     </div>
 
@@ -313,26 +324,67 @@
 
                         <li class="demuccap1">
                             Cơ cấu giải thưởng
-                        </li>
+                            <ul>
+                                <li class="demuccap2">
+                                    <strong>Giải cho Ảnh Ý tưởng</strong>
+                                    <!--<ul style="list-style-type:disc">-->
+                                    <!--
+                                        <li>Giải NHẤT: <span style="font-weight:bold; color:blue;">1,500,000 đồng</span></li>
+                                        <li>Giải NHÌ: <span style="font-weight:bold; color:blue;">1,000,000 đồng</span></li>
+                                        <li>Giải BA: <span style="font-weight:bold; color:blue;">800,000 đồng</span></li>
+                                    -->
+                                    <table class="table table-bordered table-hover table_price" style="margin-left: 25px;">
+                                        <!--
+                                        <tr>
+                                            <td colspan="2" style="text-align:center; font-weight:bold;">Giải cho Front-end web</td>
+                                        </tr> -->
+                                        <tr>
+                                            <td>Giải NHẤT: </td>
+                                            <td><span style="font-weight:bold; color:#16589d;">1,500,000 đồng</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Giải NHÌ: </td>
+                                            <td><span style="font-weight:bold; color:#16589d;">1,000,000 đồng</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Giải BA:</td>
+                                            <td><span style="font-weight:bold; color:#16589d;">800,000 đồng</span></td>
+                                        </tr>
+                                    </table>
+                                    <!--</ul>-->
+                                </li>
+                                <li class="demuccap2">
+                                    <strong>Giải cho phim ngắn</strong>
+                                    <!--
+                                    <ul style="list-style-type:disc">
 
-                        <table class="table table-bordered table-hover table_price" style="margin-left: 20px;">
-                            <!--
-                            <tr>
-                                <td colspan="2" style="text-align:center; font-weight:bold;">Giải cho Front-end web</td>
-                            </tr> -->
-                            <tr>
-                                <td>Giải NHẤT: </td>
-                                <td><span style="font-weight:bold; color:#16589d;">1,500,000 đồng</span></td>
-                            </tr>
-                            <tr>
-                                <td>Giải NHÌ: </td>
-                                <td><span style="font-weight:bold; color:#16589d;">1,000,000 đồng</span></td>
-                            </tr>
-                            <tr>
-                                <td>Giải BA:</td>
-                                <td><span style="font-weight:bold; color:#16589d;">800,000 đồng</span></td>
-                            </tr>
-                        </table>
+                                    <li>Giải NHẤT: <span style="font-weight:bold; color:blue;">1,500,000 đồng</span></li>
+                                    <li>Giải NHÌ: <span style="font-weight:bold; color:blue;">1,000,000 đồng</span></li>
+                                    <li>Giải BA: <span style="font-weight:bold; color:blue;">800,000 đồng</span></li>
+                                    -->
+                                    <table class="table table-bordered table-hover table_price" style="margin-left: 25px;">
+                                        <!--
+                                        <tr>
+                                            <td colspan="2" style="text-align:center; font-weight:bold;">Giải cho Back-end web</td>
+                                        </tr>
+                                        -->
+                                        <tr>
+                                            <td>Giải NHẤT: </td>
+                                            <td><span style="font-weight:bold; color:#16589d;">1,500,000 đồng</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Giải NHÌ: </td>
+                                            <td><span style="font-weight:bold; color:#16589d;">1,000,000 đồng</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Giải BA:</td>
+                                            <td><span style="font-weight:bold; color:#16589d;">800,000 đồng</span></td>
+                                        </tr>
+                                    </table>
+                                    <!--</ul>-->
+                                </li>
+                            </ul>
+                        </li>
 
                     </div>
 
